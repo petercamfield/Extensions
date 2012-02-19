@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetaSpline.Extensions", "BetaSpline.Extensions\BetaSpline.Extensions.csproj", "{342FDBC4-5EE9-4732-8CEF-BD0C7F36C63C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetaSpline.Extensions.Tests", "BetaSpline.Extensions.Tests\BetaSpline.Extensions.Tests.csproj", "{65B6DA72-F4E8-4736-B0DE-4DB4777867CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{342FDBC4-5EE9-4732-8CEF-BD0C7F36C63C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342FDBC4-5EE9-4732-8CEF-BD0C7F36C63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{342FDBC4-5EE9-4732-8CEF-BD0C7F36C63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342FDBC4-5EE9-4732-8CEF-BD0C7F36C63C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65B6DA72-F4E8-4736-B0DE-4DB4777867CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B6DA72-F4E8-4736-B0DE-4DB4777867CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B6DA72-F4E8-4736-B0DE-4DB4777867CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B6DA72-F4E8-4736-B0DE-4DB4777867CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
