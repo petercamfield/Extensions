@@ -2,8 +2,7 @@
 
 Brings ruby style string formatting to .NET
 
-    "Hello {Name}".Extensions().Format(new {Name="World"});
-    => Hello World
+    "Hello {Name}".Extensions().Format(new {Name="World"}); // => Hello World
 
 You can easily bind to the properties of the current object using this:
 
@@ -24,6 +23,8 @@ You can easily bind to the properties of the current object using this:
             return "{Name} is {Age} years old.".Extensions().Format(this);
         }        
     }
+    
+Formatting output:
     
     var bob = new Person("Bob", 22);
     
