@@ -34,5 +34,6 @@ Formatting output:
 
 ## Integer Extensions
 Simple enumeration for .NET
+
     3.Extensions().Times(DoSomething); // => DoSomething(); DoSomething(); DoSomething();
     3.Extensions().Times(DoSomethingWithIndex); // => DoSomethingWithIndex(0); DoSomethingWithIndex(1); DoSomethingWithIndex(2); 
