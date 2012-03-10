@@ -12,14 +12,24 @@ namespace BetaSpline.Extensions.Tests
         }
 
         [Test]
-        public void UsesStringAsInput()
+        public void UsesString()
         {
-            Assert.That(InputOf("string".Extensions()), Is.EqualTo("string"));
+            var input = "string".Extensions().Format(new {});
+            Assert.That(input, Is.EqualTo("string"));
         }
 
-        private static string InputOf(StringExtensions stringExtensions)
+        [Test]
+        public void ReturnsIntegerExtensions()
         {
-            return stringExtensions.Format(new {});
+            Assert.That(0.Extensions(), Is.TypeOf<IntegerExtensions>());
+        }
+
+        [Test]
+        public void UsesInteger()
+        {
+            var i=0;
+            1.Extensions().Times(() => i++);
+            Assert.That(i, Is.EqualTo(1));
         }
     }
 }

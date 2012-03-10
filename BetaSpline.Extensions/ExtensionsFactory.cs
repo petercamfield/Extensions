@@ -2,9 +2,14 @@
 {
     public static class ExtensionsFactory
     {
-        public static StringExtensions Extensions(this string input)
+        public static StringExtensions Extensions(this string value)
         {
-            return new StringExtensions(input);
+            return new StringExtensions(value);
+        }
+
+        public static IntegerExtensions Extensions(this int value)
+        {
+            return new IntegerExtensions(value);
         }
     }
 }
