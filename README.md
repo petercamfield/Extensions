@@ -1,6 +1,7 @@
 # Extensions to the .NET framework
 
-Brings ruby style string formatting to .NET
+## String Extensions
+Simple string formatting for .NET
 
     "Hello {Name}".Extensions().Format(new {Name="World"}); // => Hello World
 
@@ -30,3 +31,8 @@ Formatting output:
     
     bob.ToString(); // => Bob is 22 years old.
     "{Age} years ago {Name} was born.".Extensions().Format(bob); // => 22 years ago Bob was born.
+
+## Integer Extensions
+Simple enumeration for .NET
+    3.Extensions().Times(DoSomething); // => DoSomething(); DoSomething(); DoSomething();
+    3.Extensions().Times(DoSomethingWithIndex); // => DoSomethingWithIndex(0); DoSomethingWithIndex(1); DoSomethingWithIndex(2); 
